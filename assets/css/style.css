@@ -13,7 +13,6 @@
 
 
 
-
 .links a {
 	color: red;
 	text-decoration: none;
@@ -52,11 +51,10 @@ footer {
 	border-top: 10px;
 	border-top-color: #4aaaa5;
 	border-top-style: solid;
-	position: absolute;
+	position: fixed;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	display: none
 }
 
 .sidebar-wrapper {
