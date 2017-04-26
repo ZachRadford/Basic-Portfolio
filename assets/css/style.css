@@ -5,7 +5,7 @@
 
 	background-color: #4aaaa5;
 	padding: 15px;
-	width: 95px;
+	width: 100px;
 	color: #ffffff;
 	text-align: center;
 
@@ -14,7 +14,7 @@
 
 
 .links a {
-	color: red;
+	color: #777777;
 	text-decoration: none;
 	border: 0;
 	border-right: 1px;
@@ -35,7 +35,7 @@
 }
 
 .links a:hover {
-	color: blue;
+	color: #daff22;
 	text-decoration: dotted;
 }
 
@@ -128,37 +128,39 @@ input {
 
 
 
-.portfolioimg img{
+.portfolioimg img {
 	height: 100%;
 	width: 100%;
 	margin-bottom: 35px;
 }
 
-.portfolioimg > div{
+.portfolioimg > div {
 	display:inline-block;
 	width: 250px;
 	height: 250px;
 }
 
-.stupidbutton{
+.stupidbutton a {
+	display: table-cell;
 	height: 50px;
 	background-color: #4aaaa5;
 	width: 250px;
 	color: white;
 	text-align: center;
+	vertical-align: middle;
 	position: relative;
 	bottom: 248px;
 }
 
-h1, h2{
+h1, h2 {
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	color: #4aaaa5;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
-p{
+p {
 	color: #777777;
 }
